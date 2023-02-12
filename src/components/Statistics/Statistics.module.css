@@ -1,0 +1,22 @@
+.statistics {
+    max-width: 200px;
+}
+.title {
+text-align: center;
+}
+
+.stat-list{
+    display: flex;
+}
+
+.item {
+width: 50px;
+    margin-right: 8px;
+}
+
+.label{
+font-size: 22px;
+}
+.percentage {
+font-size: 18px;
+}
