@@ -1,22 +1,40 @@
 .statistics {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    
 }
 .title {
-text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+    color: blue;
 }
 
-.stat-list{
+.stat__list{
     display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 400px;
 }
 
 .item {
+list-style: none;
 width: 50px;
-    margin-right: 8px;
+margin-right: 30px;
 }
 
 .label{
+    font-weight: 600;
 font-size: 22px;
+margin-right: 15px;
 }
 .percentage {
-font-size: 18px;
+font-weight: 500;
+font-size: 20px;
+color: darkmagenta;
+margin-right: 20px;
 }
